@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,3 +24,10 @@ p {
     h3 {
         font-size: 1.25em;
     }
+.header-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%; 
+  max-width: 600px; 
+  height: auto;   
+}
