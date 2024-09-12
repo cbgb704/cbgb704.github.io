@@ -38,8 +38,9 @@ h2 {
 
 .top-right {
     position: absolute;
+    display: flex;
     top: 130px;
-    right: 120px;
+    right: 0;
 }
 
 .top-right image {
