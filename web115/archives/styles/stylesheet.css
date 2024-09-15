@@ -64,7 +64,7 @@ p {
 
 .container {
     max-width: 1200px; 
-    margin: 25 auto; 
+    margin: 0 auto; 
 }
 
 /* Footer Styles */
