@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <title>Connor Emery's Funky Monky | WEB115 | FizzBuzz</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="/scripts/fizzbuzz2.js"></script>
+    <script src="/scripts/fizzbuzz1.js"></script>
     <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
   </head>
   <div data-include="archives/components/header.html"></div>
 <body>
-    <h2>Funky Monky FizzBuzz#0</h2>
+    <h2>Funky Monky FizzBuzz#2</h2>
      <h2 id="greeting">WELCOME to Dragon's Lair Cafe!</h2>
-     <form onsubmit="return greetUser()">
+    <main>
+     <form id="greetingForm">
          <label for="first_name">First Name:</label>
          <input type="text" id="first_name" name="first_name" placeholder="Enter your First Name here" required><br><br>
   
@@ -23,6 +24,7 @@
    
          <input type="submit" value="Submit">
      </form> 
+    </main>
       <ul id="themeMessages"></ul>
        <div data-include="archives/components/footer.html"></div>
        <script src="scripts/HTMLInclude.js"></script>
