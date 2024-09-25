@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif; 
-    color: #000000; 
+    color: #000000cc; 
     background-color: #9B9B9B; 
     margin: 0; 
     padding: 0; 
@@ -98,5 +98,5 @@ footer {
     padding: 10px;
     text-align: center;
     font-size: 0.9em;
-    color: #000000;
+    color: #000000cc; 
 }
