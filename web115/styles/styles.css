@@ -2,14 +2,14 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #80320ebd; 
-    background-color: #b1b1b1; 
+    color: #5e1e00; 
+    background-color: #e7ceb1; 
     margin: 0; 
     padding: 0; 
-    position:relative;
+    position: relative;
     font-size: 18px;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 body, html {
@@ -30,14 +30,13 @@ main {
 }
 
 header {
-    background-color: rgb(214, 214, 214); 
-    padding: 8px; 
+    background-color: #dcbf9e; 
+    padding: 12px; 
     display: flex;
     justify-content: space-between;
     align-items: center; 
     height: auto;
 }
-
 
 .nav-container {
     display: flex;
@@ -45,13 +44,13 @@ header {
     justify-content: flex-end; 
     gap: 20px; 
     max-width: 60%; 
-    padding: 0;
-    row-gap: 0;
+    padding: 0; 
+    row-gap: 0; 
 }
 
 h1 {
     font-family: 'Uncial Antiqua', serif; 
-    color: rgb(82, 105, 17);
+    color: #485f08;
     margin: 0; 
     font-size: 2.5em; 
     white-space: nowrap;
@@ -59,7 +58,7 @@ h1 {
 
 h2 {
     font-family: 'Uncial Antiqua', serif; 
-    color: #526A11;
+    color: #537001;
     margin: 15px; 
     font-size: 2em; 
 }
@@ -67,6 +66,7 @@ h2 {
 .header-img { 
     height: auto; 
 }
+
 .center {
     display: block;
     margin-left: auto;
@@ -76,7 +76,7 @@ h2 {
 
 h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
-    color: #526a11;
+    color: #537001;
     margin:15px;
 }
 
@@ -85,27 +85,44 @@ p {
     margin-bottom: 1em;
     margin: 25px;
 }
+p, .inline{
+    display:inline-block
+}
 
 .container {
     max-width: 1200px; 
     margin: 25 auto; 
 }
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.text-content {
+    max-width: 69%; 
+}
+
+.inline-image {
+    max-width: 35%; 
+    margin-right: 50px;
+}
 .link {
-    color: #526a11;
+    color: #5e1e00;
     text-decoration: none;
 }
   
 a:hover {
-    color: #ffffff;
+    color: rgb(83, 112, 1);
   }
  
 form {
     margin:  25px;
 }
 footer {
-    background-color: #D6D6D6; 
-    padding: 10px;
+    background-color: #dcbf9e; 
+    padding: 8px;
     text-align: right;
     font-size: 0.9em;
-; 
 }
