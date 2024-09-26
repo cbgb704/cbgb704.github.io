@@ -24,7 +24,6 @@ function greetUser() {
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("greetingForm");
     form.addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the form from submitting in the traditional way
-        greetUser(); // Call the greetUser function
-    });
-});
+        event.preventDefault(); 
+        greetUser(); 
+})
