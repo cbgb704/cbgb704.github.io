@@ -4,18 +4,19 @@ body {
     font-family: "Roboto", sans-serif;
     color: #5e1e00; 
     background-color: #e7ceb1; 
-    margin: 0; 
+    margin: 0 auto; 
     padding: 0; 
     position: relative;
     font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 body, html {
     height:100%;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 main {
@@ -23,15 +24,13 @@ main {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin:15px;
-}
-.statement {
-    text-align:center;
+    margin: 20px auto;
+    max-width: 80%;
 }
 
 header {
     background-color: #dcbf9e; 
-    padding: 12px; 
+    padding: 8px; 
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -63,8 +62,8 @@ h2 {
     font-size: 2em; 
 }
 
-.header-img { 
-    height: auto; 
+figcaption {
+    text-indent:15px;
 }
 
 .center {
@@ -84,30 +83,39 @@ p {
     line-height: 1.6;
     margin-bottom: 1em;
     margin: 25px;
-}
-p, .inline{
-    display:inline-block
+    font-size: 20px;
 }
 
 .container {
     max-width: 1200px; 
     margin: 25 auto; 
 }
+
 .content-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 10px 0;
+    max-width:100%;
 }
 
 .text-content {
-    max-width: 69%; 
+    max-width: 69%;
 }
 
-.inline-image {
+.framed {
+   outline: 1.25cm ridge #dcbf9e;
+}
+
+.inline-right {
     max-width: 35%; 
     margin-right: 50px;
 }
+
+.inline-left { 
+    margin-left: 20px;
+}
+
 .link {
     color: #5e1e00;
     text-decoration: none;
@@ -115,11 +123,12 @@ p, .inline{
   
 a:hover {
     color: rgb(83, 112, 1);
-  }
+}
  
 form {
     margin:  25px;
 }
+
 footer {
     background-color: #dcbf9e; 
     padding: 8px;
