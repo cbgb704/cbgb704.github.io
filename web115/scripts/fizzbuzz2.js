@@ -14,7 +14,7 @@ function greetUser() {
     document.getElementById("greeting").textContent = newGreeting;
 
     const themeContainer = document.getElementById("themeMessages");
-    themeContainer.innerHTML = ""; // clear previous list
+    themeContainer.innerHTML = "";
     
     const firstDivisor = 3;  
     const secondDivisor = 5; 
