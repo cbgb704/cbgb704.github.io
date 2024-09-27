@@ -26,4 +26,5 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener("submit", function(event) {
         event.preventDefault(); 
         greetUser(); 
-})
+});
+});
