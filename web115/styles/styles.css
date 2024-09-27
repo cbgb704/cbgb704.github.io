@@ -119,6 +119,7 @@ p {
 .link {
     color: #5e1e00;
     text-decoration: none;
+    padding-right:5px;
 }
   
 a:hover {
