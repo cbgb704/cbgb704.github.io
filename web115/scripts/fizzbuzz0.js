@@ -1,7 +1,7 @@
 function greetUser() {
-    const firstName = document.getElementById("first_name").value;
-    const middleInitial = document.getElementById("middle_initial").value;
-    const lastName = document.getElementById("last_name").value;
+    const firstName = document.getElementById("firstname").value;
+    const middleInitial = document.getElementById("middleinitial").value;
+    const lastName = document.getElementById("lastname").value;
  
     const fullName = firstName + " " + (middleInitial ? middleInitial + "." : "") + " " + lastName;
     const originalGreeting = "WELCOME to Dragon's Lair Cafe";
@@ -9,7 +9,7 @@ function greetUser() {
  
     document.getElementById("greeting").textContent = newGreeting;
  
-    const themeContainer = document.getElementById("themeMessages");
+    const themeContainer = document.getElementById("thememessages");
     themeContainer.innerHTML = "";
  
     const count = prompt("How high do you want to count, " + firstName + "?");
@@ -22,7 +22,7 @@ function greetUser() {
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
-    const form = document.getElementById("greetingForm");
+    const form = document.getElementById("greetingform");
     form.addEventListener("submit", function(event) {
         event.preventDefault(); 
         greetUser(); 
