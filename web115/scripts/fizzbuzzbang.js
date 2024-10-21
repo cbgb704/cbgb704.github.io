@@ -13,25 +13,30 @@ function greetUser() {
 
     document.getElementById("greeting").textContent = newGreeting;
 
-painer = document.getElementById("themeMessages");
+    const themeContainer = document.getElementById("themeMessages");
     themeContainer.innerHTML = "";
-    
-    const firstDivisor = 3;  0p
-    const secondDivisor = 5; 
-p
-    for (let i = 1; i <= 140; i++) {
-        const listItem = document.createElement("li");
 
-        if (checkDivision(i, firstDivisor) && checkDivision(i, secondDivisor)) {
-            listItem.textContent = i + ". Roar! Sip!";
-        } else if (checkDivision(i, firstDivisor)) {
-            listItem.textContent = i + ". Roar!";
-        } else if (checkDivision(i, secondDivisor)) {
-            listItem.textContent = i + ". Sip!";
-        } else {
-            listItem.textContent = i + ". Brew!";
+    const divisors = {
+        3: "Roar!",
+        5: "Sip!",
+        7: "BANG!"
+    };
+
+    for (let i = 1; i <= 140; i++) {
+        let message = i + ". ";
+        
+        for (const divisor in divisors) {
+            if (checkDivision(i, divisor)) {
+                message += divisors[divisor] + " ";
+            }
         }
 
+        if (message.trim() === i + ".") {
+            message += "Brew!";
+        }
+
+        const listItem = document.createElement("li");
+        listItem.textContent = message.trim();
         themeContainer.appendChild(listItem);
     }
     return false; 
