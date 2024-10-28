@@ -13,7 +13,7 @@ function greetUser() {
 
     document.getElementById("greeting").textContent = newGreeting;
 
-painer = document.getElementById("thememessages");
+    themeContainer = document.getElementById("thememessages");
     themeContainer.innerHTML = "";
     
     const firstDivisor = 3; 
