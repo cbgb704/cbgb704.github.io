@@ -46,14 +46,14 @@ h1 {
 
 h2 {
     font-family: 'Uncial Antiqua', serif; 
-    color: #537001;
+    color: #485f08;
     margin: 15px; 
     font-size: 3em; 
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
-    color: #537001;
+    color: #485f08;
     margin:15px;
     font-size: 2em;
     text-align:left;
@@ -61,14 +61,14 @@ h3 {
 
 h4 {
     font-family: "Roboto", sans-serif;
-    color: #537001;
+    color: #485f08;
     margin:15px;
     font-size: 1.65em;
 }
 
 h5 {
     font-family: "Roboto", sans-serif;
-    color: #537001;
+    color: #485f08;
     margin:15px;
     font-size: 1.25em;
 }
@@ -118,6 +118,7 @@ p {
 
 .framed {
    outline: 1.25cm ridge #dcbf9e;
+   margin-top:18px;
 }
 
 .inline-right {
@@ -158,6 +159,21 @@ footer {
 footer a {
     text-decoration: none;
     color: #485f08;
+}
+
+main h2, main h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main ul, main ol {
+    margin-top: 15px;
+    padding-left: 20px; /* Adds some padding to lists */
+}
+
+main p {
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 a:hover {
