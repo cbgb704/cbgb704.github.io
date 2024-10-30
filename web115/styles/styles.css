@@ -28,56 +28,57 @@ main {
     width: 80%;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: flex-end; 
+nav {
     gap: 15px; 
-    max-width: 50%; 
-    font-size:1.25em;
+    max-width: 45%; 
+    font-size:40px;
+    font-family: "Roboto", sans-serif;
+    color: #5e1e00;
+    margin:15px;
 }
 
 h1 {
     font-family: 'Uncial Antiqua', serif; 
     color: #485f08;
     margin: 0; 
-    font-size: 3.5em; 
+    font-size: 65px; 
     white-space: break-spaces;
+    max-width:65%;
 }
 
 h2 {
     font-family: 'Uncial Antiqua', serif; 
     color: #485f08;
     margin: 15px; 
-    font-size: 3em; 
+    font-size: 54px; 
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
     margin:15px;
-    font-size: 2em;
+    font-size: 45px;
     text-align:left;
 }
 
 h4 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
-    margin:15px;
-    font-size: 1.65em;
+    margin:0px;
+    font-size: 40px;
 }
-
-h5 {
-    font-family: "Roboto", sans-serif;
+.magic, .fire {
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 45px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.magic {
     color: #485f08;
-    margin:15px;
-    font-size: 1.25em;
 }
 
-h6 {
-    font-family: "Roboto", sans-serif;
-    color: #5e1e00;
-    margin:15px;
-    font-size: 1.25em;
+.fire {
+    color: #b53900;
 }
 
 figcaption {
@@ -117,8 +118,8 @@ p {
 }
 
 .framed {
-   outline: 1.25cm ridge #dcbf9e;
-   margin-top:18px;
+   outline: 1.25cm solid #dcbf9e;
+   margin-top:30px;
 }
 
 .inline-right {
@@ -128,7 +129,8 @@ p {
 
 .inline-left { 
     margin-left: 40px;
-    outline: 1cm ridge #dcbf9e;
+    outline: 1cm solid #dcbf9e;
+    margin-bottom:25px;
 }
 
 a {
@@ -153,25 +155,62 @@ header a {
 footer {
     background-color: #dcbf9e; 
     padding: 16px;
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: auto;
+}
+.footer-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-size:28px;
 }
 
-footer a {
+
+footer nav em{
+    max-width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 100%;
+
+}
+
+nav a {
     text-decoration: none;
     color: #485f08;
 }
 
-main p {
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-a:hover {
-    color: #5e1e00;
+.slogan {
+    display:inline-block;
+    font-size:35px;
 }
 
 
 form {
     margin:  25px;
-    width: 80%;
+    width: 80;
+    font-size:25px;
+}
+
+input {
+    font-size:25px
+}
+
+input:hover {
+   color:#485f08;
+}
+
+li {
+    font-size: 25px;
+    margin: 15px;
+    line-height:1.5;
+}
+li strong {
+    font-family: "Roboto", sans-serif;
+    color: #485f08;
+    margin:15px;
 }
