@@ -161,7 +161,8 @@ footer {
     height: auto;
 }
 .footer-left {
-    width: 50%;
+    margin-left:15px;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
