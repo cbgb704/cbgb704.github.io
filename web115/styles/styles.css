@@ -139,6 +139,9 @@ a {
     color: #537001;
     text-decoration: underline;
 }
+a:hover {
+    color:#5e1e00;
+}
 
 header {
     background-color: #dcbf9e; 
