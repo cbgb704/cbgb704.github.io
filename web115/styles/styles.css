@@ -41,7 +41,7 @@ h1 {
     font-family: 'Uncial Antiqua', serif; 
     color: #485f08;
     margin: 0; 
-    font-size: 65px; 
+    font-size: 55px; 
     white-space: break-spaces;
     max-width:65%;
 }
@@ -50,7 +50,7 @@ h2 {
     font-family: 'Uncial Antiqua', serif; 
     color: #485f08;
     margin: 15px; 
-    font-size: 54px; 
+    font-size: 48px; 
 }
 
 h3 {
@@ -65,11 +65,11 @@ h4 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
     margin:0px;
-    font-size: 40px;
+    font-size: 35px;
 }
 .magic, .fire {
     font-family: 'Uncial Antiqua', serif;
-    font-size: 45px;
+    font-size: 30px;
     margin-left:10px;
     margin-right:10px;
 }
