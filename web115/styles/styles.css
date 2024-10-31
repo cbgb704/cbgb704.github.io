@@ -57,7 +57,7 @@ h3 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
     margin:15px;
-    font-size: 45px;
+    font-size: 40px;
     text-align:left;
 }
 
@@ -83,6 +83,7 @@ h4 {
 
 figcaption {
     text-indent:15px;
+    font-size:25px;
 }
 
 .center {
@@ -125,6 +126,7 @@ p {
 .inline-right {
     max-width: 35%; 
     margin-right: 50px;
+    text-align:right;
 }
 
 .inline-left { 
@@ -186,6 +188,7 @@ nav a {
 }
 
 .slogan {
+   margin:15px;
     display:inline-block;
     font-size:35px;
 }
