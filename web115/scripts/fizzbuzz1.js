@@ -38,4 +38,6 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault(); 
         greetUser(); 
     });
+    resetButton.addEventListener("click", resetForm);
+});
 });
