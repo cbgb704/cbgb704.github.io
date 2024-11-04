@@ -39,7 +39,8 @@ function greetUser() {
 function resetForm() {
     document.getElementById("greetingform").reset();
     document.getElementById("greeting").textContent = "Welcome to Dragon's Lair Cafe!"; 
-    document.getElementById("thememessages").innerHTML = "";}
+    document.getElementById("thememessages").innerHTML = "";
+}
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("greetingform");
     form.addEventListener("submit", function(event) {
