@@ -54,4 +54,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     resetButton.addEventListener("click", resetForm);
 });
-});
