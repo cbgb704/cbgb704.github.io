@@ -50,6 +50,7 @@ h2 {
     font-family: 'Uncial Antiqua', serif; 
     color: #485f08;
     margin: 15px; 
+    margin-bottom:45px;
     font-size: 48px; 
 }
 
@@ -58,19 +59,18 @@ h3 {
     color: #485f08;
     margin:15px;
     font-size: 40px;
-    text-align:left;
 }
 
 h4 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
-    margin:0px;
-    font-size: 35px;
+    margin:15px;
+    font-size: 28px;
 }
 .magic, .fire {
     font-family: 'Uncial Antiqua', serif;
     font-size: 30px;
-    margin-left:10px;
+    margin-left:15px;
     margin-right:10px;
 }
 .magic {
@@ -94,7 +94,7 @@ figcaption {
 }
 
 p {
-    line-height: 2.25em;
+    line-height: 2em;
     margin-bottom: 1em;
     margin: 25px;
     font-size: 25px;
@@ -105,34 +105,30 @@ p {
     margin: 25 auto; 
 }
 
-.content-container {
+.flex-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 10px 0;
-    max-width:100%;
+    gap: 2px;
 }
 
-.text-content {
-    max-width: 69%;
-    line-height: 2;
+.leftbox {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+/* Right Box */
+.rightbox {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 
 .framed {
    outline: 1.25cm solid #dcbf9e;
    margin-top:30px;
-}
-
-.inline-right {
-    max-width: 35%; 
-    margin-right: 50px;
-    text-align:right;
-}
-
-.inline-left { 
-    margin-left: 40px;
-    outline: 1cm solid #dcbf9e;
-    margin-bottom:25px;
+   margin-bottom:30px;
 }
 
 a {
