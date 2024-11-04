@@ -69,9 +69,8 @@ h4 {
 }
 .magic, .fire {
     font-family: 'Uncial Antiqua', serif;
-    font-size: 30px;
+    font-size: 35px;
     margin-left:15px;
-    margin-right:10px;
 }
 .magic {
     color: #485f08;
@@ -117,7 +116,6 @@ p {
     box-sizing: border-box;
 }
 
-/* Right Box */
 .rightbox {
     width: 50%;
     padding: 20px;
