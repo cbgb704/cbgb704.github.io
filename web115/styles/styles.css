@@ -122,11 +122,10 @@ p {
     box-sizing: border-box;
 }
 
-
 .framed {
    outline: 1.25cm solid #dcbf9e;
    margin-top:30px;
-   margin-bottom:30px;
+   margin-bottom:10px;
 }
 
 a {
