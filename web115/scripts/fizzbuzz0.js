@@ -3,7 +3,7 @@ function greetUser() {
     const middleInitial = document.getElementById("middleinitial").value;
     const lastName = document.getElementById("lastname").value;
  
-    const fullName = firstName + " " + (middleInitial ? middleInitial + "." : "") + " " + lastName;
+    const fullName = firstName + " " + (middleInitial ? " " + middleInitial + "." : "") + " " + lastName;
     const originalGreeting = "WELCOME to Dragon's Lair Cafe";
     const newGreeting = originalGreeting + ", " + fullName + "!";
  
