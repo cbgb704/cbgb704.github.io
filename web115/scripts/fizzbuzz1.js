@@ -4,7 +4,7 @@ function greetUser() {
     const lastName = document.getElementById("lastname").value;
 
     const fullName = firstName + " " + (middleInitial ? " " + middleInitial + "." : "") + " " + lastName;
-    const originalGreeting = "WELCOME to Dragon's Lair Cafe";
+    const originalGreeting = "Welcome to Dragon's Lair Cafe";
     const newGreeting = originalGreeting + ", " + fullName + "!";
 
     document.getElementById("greeting").textContent = newGreeting;
@@ -39,5 +39,5 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault(); 
         greetUser(); 
     });
-    resetButton.addEventListener("click", resetForm);
+    resetbutton.addEventListener("click", resetForm);
 });
