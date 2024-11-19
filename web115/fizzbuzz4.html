@@ -12,19 +12,27 @@
     <main>
     <h2>FizzBuzz #4</h2>
     <h3 id="greeting">Welcome to Dragon's Lair Cafe!</h3>
-     <form id="greetingform">
-         <label for="firstname">First Name:</label>
-         <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name here" required><br><br>
-  
-         <label for="middleinitial">Middle Initial:</label>
-         <input type="text" id="middleinitial" name="middleinitial" placeholder="(optional)" maxlength="1"><br><br>
-  
-         <label for="lastname">Last Name:</label>
-         <input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name here" required><br><br>
-   
-         <input type="submit" value="Submit">
-         <input type="button" id="resetbutton" value="Reset">
-     </form> 
+    <form id="greetingform">
+      <fieldset>
+          <legend>User Information</legend>
+          <label>First Name: <input type="text" id="firstname" required></label><br>
+          <label>Middle Initial: <input type="text" id="middleinitial" maxlength="1"></label><br>
+          <label>Last Name: <input type="text" id="lastname" required></label><br>
+      </fieldset>
+      <fieldset>
+          <legend>FizzBuzz Settings</legend>
+          <label>Divisor 1: <input type="number" id="divisor1" value="3"></label>
+          <label>Word 1: <input type="text" id="word1" value="Roar"></label><br>
+          <label>Divisor 2: <input type="number" id="divisor2" value="5"></label>
+          <label>Word 2: <input type="text" id="word2" value="Sip"></label><br>
+          <label>Divisor 3: <input type="number" id="divisor3" value="7"></label>
+          <label>Word 3: <input type="text" id="word3" value="Bang"></label><br>
+          <label>Total Count: <input type="number" id="total" value="125"></label><br>
+          <label>Fallback Word: <input type="text" id="fallback" value=""></label>
+      </fieldset>
+      <button type="submit">Submit</button>
+      <button type="button" id="resetbutton">Reset</button>
+  </form>
      <ul id="thememessages"></ul>
     </main>
        <div data-include="components/footer.html"></div>
