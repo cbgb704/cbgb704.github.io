@@ -27,11 +27,13 @@ main {
     margin: 20px auto;
     width: 80%;
 }
+ul 
+{list-style-type: none;}
 
 nav {
     gap: 15px; 
     max-width: 45%; 
-    font-size:40px;
+    font-size:34px;
     font-family: "Roboto", sans-serif;
     color: #5e1e00;
     margin:15px;
@@ -41,7 +43,7 @@ h1 {
     font-family: 'Uncial Antiqua', serif; 
     color: #485f08;
     margin: 0; 
-    font-size: 55px; 
+    font-size: 48px; 
     white-space: break-spaces;
     max-width:65%;
 }
@@ -50,27 +52,27 @@ h2 {
     font-family: 'Uncial Antiqua', serif; 
     color: #485f08;
     margin: 15px; 
-    margin-bottom:45px;
-    font-size: 48px; 
+    margin-bottom:40px;
+    font-size: 40px; 
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
     margin:15px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h4 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
     margin:15px;
-    font-size: 28px;
+    font-size: 25px;
 }
 .magic, .fire {
     font-family: 'Uncial Antiqua', serif;
-    font-size: 35px;
-    margin-left:15px;
+    font-size: 45px;
+    margin-left:12px;
 }
 .magic {
     color: #485f08;
@@ -191,7 +193,9 @@ nav a {
     display:inline-block;
     font-size:35px;
 }
-
+.logo {
+    width:110px;
+}
 
 form {
     margin:  25px;
