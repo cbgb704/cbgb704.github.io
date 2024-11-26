@@ -53,14 +53,14 @@ h2 {
     color: #485f08;
     margin: 15px; 
     margin-bottom:40px;
-    font-size: 40px; 
+    font-size: 44px; 
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
     color: #485f08;
     margin:15px;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 h4 {
@@ -195,6 +195,7 @@ nav a {
 }
 .logo {
     width:110px;
+
 }
 
 form {
