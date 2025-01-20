@@ -1,8 +1,26 @@
-body
-{
-  margin: 300px;
-  font-family: papyrus;
-  color: red;
-  background-color: green;
-  font-size: 200%;
+
+body {
+  background: #FBF5E5;
+  color: #212121;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Comic Neue", serif;
+  font-weight: 525;
+}
+
+h1, h2, h3, h4 {
+  color: #C890A7;
+  font-family: "Lilita One", serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+a {
+  color: #A35C7A;
+  font-family: "Comic Neue", serif;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #bffff1;
 }
