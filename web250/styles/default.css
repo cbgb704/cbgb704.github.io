@@ -1,6 +1,6 @@
 body {
-  background: #FBF5E5;
-  color: #212121;
+  background: #F9EBE0;
+  color: #0D2149;
   min-height: 100vh;
   text-align: center;
   font-family: "Comic Neue", serif;
@@ -8,19 +8,28 @@ body {
   font-size: medium;
 }
 
-h1, h2, h3, h4 {
-  color: #C890A7;
+h1 {
+  color: #08462c;
   font-family: "Lilita One", serif;
   text-align: center;
   font-weight: 400;
 }
-
+h2, h3, h4 {
+  color: #2a664d;
+  font-family: "Lilita One", serif;
+  text-align: center;
+  font-weight: 400;
+}
+ul {
+  text-align: left;
+}
 a {
-  color: #A35C7A;
+  color: #208AAE;
   font-family: "Comic Neue", serif;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #bffff1;
+  background-color: #0D2149;
 }
+
