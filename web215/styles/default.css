@@ -38,17 +38,17 @@ ul {
   text-align: left;
 }
 a {
-  color: #208AAE;
+  color: #1ab6a9;
   font-family: "Comic Neue", serif;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #0D2149;
+  background-color: #ffabfe;
 }
 
 footer {
-  background-color: #dcccbb; 
+  background-color: #eee1d3; 
   padding: 16px;
   display: flex;
   justify-content: space-between;
