@@ -2,10 +2,10 @@ body {
   background: #F9EBE0;
   color: #0D2149;
   min-height: 100vh;
-  text-align: center;
   font-family: "Comic Neue", serif;
   font-weight: 525;
   font-size: medium;
+  
 }
 body, html {
     height:100%;
@@ -38,13 +38,13 @@ ul {
   text-align: left;
 }
 a {
-  color: #1ab6a9;
+  color: #007B7A;
   font-family: "Comic Neue", serif;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #ffabfe;
+  background-color: #ffd4fc;
 }
 
 footer {
