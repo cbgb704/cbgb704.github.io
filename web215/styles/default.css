@@ -16,10 +16,10 @@ body, html {
 }
 
 main {
-  text-align:center;
+  max-width: 900px;
+  width: 90%;
   font-style: normal;
   margin: 20px auto;
-  width: 80%;
 }
 
 h1 {
@@ -46,7 +46,14 @@ a {
 a:hover {
   background-color: #ffd4fc;
 }
-
+header {
+  background-color: #eee1d3; 
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  height: auto;
+}
 footer {
   background-color: #eee1d3; 
   padding: 16px;
@@ -56,3 +63,7 @@ footer {
   height: auto;
 }
 
+#banner {
+  max-width: 1000px;
+
+}
