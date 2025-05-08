@@ -43,9 +43,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  background-color: #ffc3fb;
-}
+
 header {
   background-color: #eee1d3; 
   padding: 16px;
