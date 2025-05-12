@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api/books', booksRoute);
 
 // connect to MongoDB using .env variable
-mongoose.connect("npprocess.env.MONGODB_URI", {
+mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
